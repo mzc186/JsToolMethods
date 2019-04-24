@@ -1,0 +1,6 @@
+<script type="text/javascript">
+    var user_level=3;
+    document.querySelector("#user-level-"+user_level).scrollIntoView();
+    horizonPos=document.getElementById('horizon-scroll-div').scrollLeft;
+    document.getElementById('horizon-scroll-div').scrollLeft=horizonPos+50;
+</script>
